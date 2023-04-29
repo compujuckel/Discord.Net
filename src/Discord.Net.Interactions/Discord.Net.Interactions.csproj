@@ -7,6 +7,8 @@
     <AssemblyName>Discord.Net.Interactions</AssemblyName>
     <Description>A Discord.Net extension adding support for Application Commands.</Description>
     <WarningLevel>5</WarningLevel>
+    <DebugType>embedded</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

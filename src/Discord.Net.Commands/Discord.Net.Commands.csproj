@@ -8,6 +8,8 @@
     <TargetFramework Condition=" '$(OS)' == 'Windows_NT' ">net7.0</TargetFramework>
     <TargetFramework Condition=" '$(OS)' != 'Windows_NT' ">net7.0</TargetFramework>
     <WarningLevel>5</WarningLevel>
+    <DebugType>embedded</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Discord.Net.Core\Discord.Net.Core.csproj" />

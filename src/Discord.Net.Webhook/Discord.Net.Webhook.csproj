@@ -7,6 +7,8 @@
     <Description>A core Discord.Net library containing the Webhook client and models.</Description>
     <TargetFramework>net7.0</TargetFramework>
     <WarningLevel>5</WarningLevel>
+    <DebugType>embedded</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Discord.Net.Core\Discord.Net.Core.csproj" />
